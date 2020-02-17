@@ -1,0 +1,34 @@
+.hero{
+    text-align: center;   
+    font: 60px Arial black;  
+}
+
+.container{
+    text-align: center;
+}
+
+.container-1{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.container-2{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    font: 15px;
+}

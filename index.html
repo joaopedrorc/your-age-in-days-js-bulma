@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="statics/css/style.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <title>Learning</title>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container">
+                <h1>Your age in days</h1>
+            </div> 
+        </div>
+    </section>
+
+    <section class="container-1">
+        <div class="field is-grouped center">
+            <div class="control center">
+
+                <button class="button is-outlined is-info is-large" onclick="ageInDays()">
+                    <span class="icon">
+                        <i class="fas fa-clock"></i>
+                    </span>
+                    <span>Click here</span>  
+                </button>   
+
+                <div class="container-2 is-large">
+                    <div class="container-1 is-large">
+                        <div id="flex-box-result"></div>
+                    </div>
+                </div>
+
+            <div class="control center">
+                <button class="button is-outlined is-danger is-large" onclick="reset()">
+                    <span class="icon">
+                        <i class="fas fa-times-circle"></i>
+                    </span>
+                    <span>Reset</span>
+                </button>   
+            </div>
+        </div>
+    </section>
+
+    
+ 
+    <script src="statics/js/script.js"></script>
+</body>
+</html>
